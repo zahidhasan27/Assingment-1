@@ -115,13 +115,25 @@ nav ul li{
     color: dodgerblue;
     
  }
-
+#nav{
+    margin-left: 250px;
+    margin-right: 2500px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
     #li{
     text-align: center;
     margin: 20px;
 }
 
-
+.foot{
+    background-color:lemonchiffon;
+    width: 940px;
+    height: 200px;
+    padding: 30px;
+    margin-left: 140px;
+}
 
  .last{
     
@@ -138,6 +150,7 @@ nav ul li{
  }
    #last2{
     text-align:center ;
+    margin-top: 45px;
    }
    :hover.last{
      background-color: aqua;
