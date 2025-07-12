@@ -5,30 +5,53 @@
     color: bisque;
     padding: 10px;
     
+    
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15px;
-
-
-
-
+    
 }
+.para{
+    font-size: 35px;
+}
+.header3{ 
+    text-align: center;
+    margin-top: 320px;
+}
+   .top{
+    background-color: rgb(253, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    /* margin style */
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: justify;
+ }
+.wc{
+    border-radius: 50px;
+}
+ .bttn{
+    color: aliceblue;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
 #logo{
     text-align: center;
     border: 10px;
 }
-#li{
-    text-align: center;
-}
-.para{
-    text-align: center;
-}
+
+ 
 header{
     background-image: url(../Assets/Hero-bg.png);
-    height: fit-content;
+    height: 598px;
+    padding: 75px;
 
 }
 nav ul li{
@@ -39,14 +62,13 @@ nav ul li{
     text-align: center;
 }
 
-.container{
-    text-align:center;
-
-}
-.container2{
-    text-align: left;
-    display: inline;
+ .middle{
+    display: flex;
     justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 620px;
+    padding: 50px;
 }
 .btnn{ margin: 10 30 10 30px;
     /* padding: 10px; */
@@ -60,6 +82,10 @@ nav ul li{
 }
  .main1{
     text-align: center;
+    border: 1340 0px;
+    background-color: antiquewhite;
+    margin: 40px;
+    padding: 50px;
  }
  .our{
     text-align: center;
@@ -89,28 +115,31 @@ nav ul li{
     color: dodgerblue;
     
  }
- .user{
-    display: flex;
-    justify-content: space-between;
-    /* margin: 180px; */
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 200px;
-    background-color: antiquewhite;
-    padding: 10px;
-    width: 850px;
+
+    #li{
     text-align: center;
- }
- .bttn{
-    color: aliceblue;
-    background-color: dodgerblue;
-    border-radius: 5px;
-    padding: 8px;
- }
- .top{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
     margin: 20px;
-    text-align: center;
+}
+
+
+
+ .last{
+    
+    background-color: royalblue;
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: justify;
  }
+ .content{
+    text-align: center;
+    margin: 20px;
+ }
+   #last2{
+    text-align:center ;
+   }
+   :hover.last{
+     background-color: aqua;
+   }
+  
