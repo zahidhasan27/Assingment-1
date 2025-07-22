@@ -1,0 +1,136 @@
+ .NAV{
+    font-size: 35px;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(197, 208, 218);
+    padding: 25px;
+    margin: 20px;
+    
+
+ }
+nav li a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+    
+    
+}
+nav li:hover{
+    background-color: aquamarine;
+}
+.btn{
+    font-size: 1.1em;
+    background-color: rgb(255, 166, 0);
+    border:  1.2px crimson;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+}  
+.primary{
+    color: orange;
+
+    
+}
+
+.head{
+    justify-content: space-between;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    margin:20px;
+    padding: 20px;
+    
+}
+.main1{
+    text-align: center;
+    margin: 20px;
+    border: 2px greenyellow;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.main2{
+    margin: 20px;
+    border: 2px greenyellow;
+    background-color: aquamarine;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.top{
+    color: rgb(216, 128, 14);
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.pp{
+    font-size: 40px;
+    color: rgb(255, 165, 0);
+}
+.main3{
+    background-color: rgb(230, 214, 214);
+    margin: 20px;
+    border-radius: 15px;
+    width: 1140px;
+    margin-left: 80px;
+    
+}
+    .main4{
+        justify-content: space-between;
+        display: flex;
+        padding: 25px;
+        margin: 45px;
+
+    }
+.star{
+
+}
+.divided{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+     
+}
+.part{
+    background-color: rgb(161, 218, 218);
+    margin-left: 60px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.footer1{
+    justify-content: center;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    border: 15px skyblue;
+    margin: 25px;
+}
+.footer2{
+    font-size: 25px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.fot1{
+    text-align: center;
+    padding: 20px 15px pink;
+    border-radius: 15px 10px;
+    margin:30px 130px;
+    color: blanchedalmond;
+}
+.footer2:hover{
+    background-color: orange;
+    color: rgb(161, 13, 13);
+}
